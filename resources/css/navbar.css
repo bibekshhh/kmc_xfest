@@ -1,0 +1,17 @@
+section#navbar{
+    padding: 1em 10em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar .brand{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#navbar .brand,
+#navbar .brand img{
+    width: 75px;
+    height: 55px;
+}
