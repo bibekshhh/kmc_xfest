@@ -3,7 +3,7 @@ section#navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 9999999999;
+    z-index: 999999;
     height: 70px;
     box-shadow: 0 2.5px 5px #dddd;
 }
