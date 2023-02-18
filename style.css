@@ -11,7 +11,7 @@
 font-family: 'Roboto', sans-serif; */
 
 .splash-screen {
-    display: none;
+    display: none !important;
     z-index: 99999999;
     height: 100vh;
     width: 100%;
@@ -24,7 +24,6 @@ font-family: 'Roboto', sans-serif; */
 
 .container,
 .wrapper{
-    margin-top: 20px;
     width: 100%;
     min-height: 100vh;
     height: max-content;
