@@ -27,7 +27,7 @@ font-family: 'Roboto', sans-serif; */
     width: 100%;
     min-height: 100vh;
     height: max-content;
-    background-color: white;
+    background-color: #F9F7F7;
 }
 
 .wrapper section#navbar{
@@ -40,5 +40,11 @@ font-family: 'Roboto', sans-serif; */
 }
 
 .wrapper section#main{
+    margin-bottom: 50px;
+}
 
+.section-label{
+    margin: 40px 20px !important;
+    font-size: 22px;
+    font-weight: 600;
 }

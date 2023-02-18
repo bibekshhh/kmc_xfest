@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KMC@xFest</title>
 
+    <script src="https://khalti.s3.ap-south-1.amazonaws.com/KPG/dist/2020.12.17.0.0.0/khalti-checkout.iffe.js"></script>
+
     <link rel="stylesheet" href="style.css">
 
     <!-- //styling components -->
@@ -28,16 +30,38 @@
     <div class="splash-screen">
         <img src="./assets/splash-screen.gif" alt="splash screen">
     </div>
-
     <div class="container">
         <div class="wrapper">
-            <section id="navbar">
-                <div class="brand">
-                    <img src="assets/splash-screen.gif" alt="brand logo">
-                    <p>Sumeet Agency</p>
-                </div>
-                <div class="center"></div>
-                <div class="right"></div>
+
+            <section id="navbar" class="navbar">
+                <div class="navbar-brand">
+                    <p href="#" id="navbar-brand">
+                      <img src="assets/splash-screen.gif" alt="Logo"/>
+                      <p>Garbage Agency</p>
+                    </p>
+                  </div>
+            
+                  <ul class="nav">
+                    <div class="close-menu">
+                      <ion-icon name="close-outline"></ion-icon>
+                    </div>
+                    <li class="nav-item"><a href="#home">Home</a></li>
+                    <li class="nav-item"><a href="#about">About</a></li>
+                    <li class="nav-item"><a href="#testimonials">Services</a></li>
+                    <li class="nav-item"><a href="#blog">Customers</a></li>
+                    <li class="nav-item"><a href="#courses">Footer</a></li>
+                  </ul>
+            
+                  <div class="auth-section">
+                    <div class="nav-button-group">
+                      <button class="login-button">Login</button>
+                      <i class="vertical-seperator"></i>
+                      <button class="reigster-button">Register</button>
+                    </div>
+                  </div>
+                  <div class="hamburger">
+                    <ion-icon name="reorder-four-outline"></ion-icon>
+                  </div>
             </section>
 
             <section id="main">
@@ -51,37 +75,42 @@
                 </div>
             </section>
 
+            <label for="#" class="section-label">Customers</label>
             <section id="customers">
                 <marquee behavior="" direction="right">
                     <span>
-                        1 Company logo
+                        <img src="https://images-platform.99static.com//qVb0Ytc6lMvdTdyyLaAaNpec49k=/178x178:827x827/fit-in/590x590/99designs-contests-attachments/107/107492/attachment_107492838" alt="logo">
                     </span>
                     <span>
-                        2 Company logo
+                        <img src="https://img.freepik.com/premium-vector/rubbish-bin-junk-removal-logo-design-environmentally-friendly-garbage-disposal-service_171487-137.jpg" alt="">
                     </span>
                     <span>
-                        3 Company logo
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7tVHWzjA93m5HYT9ZxC_wZcNiR1k0pdhVlA&usqp=CAU" alt="">
                     </span>
                     <span>
-                        4 Company logo
+                        <img src="http://www.nswma.gov.jm/wp-content/uploads/2019/11/NSWMA-Logo-01-5.png" alt="brand">
                     </span>
     
                     <span>
-                        5 Company logo
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA5VbdcKI16DOn8E3WWjXwJh123348u7pMow&usqp=CAU" alt="brand">
+
                     </span>
                     <span>
-                        6 Company logo
+                        <img src="http://www.nswma.gov.jm/wp-content/uploads/2019/11/NSWMA-Logo-01-5.png" alt="brand">
+
                     </span>
                     <span>
-                        7 Company logo
+                        <img src="http://www.nswma.gov.jm/wp-content/uploads/2019/11/NSWMA-Logo-01-5.png" alt="brand">
+
                     </span>
                     <span>
-                        8 Company logo
+                        <img src="http://www.nswma.gov.jm/wp-content/uploads/2019/11/NSWMA-Logo-01-5.png" alt="brand">
                     </span>
                 </marquee>
 
             </section>
 
+            <label for="#" class="section-label">Services</label>
             <section id="services">
                 <div class="service">
                     <div class="image">
@@ -97,7 +126,93 @@
                         <span class="caption">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quae inventore vel expedita dolorem.
                         </span>
-                        <button type="button">
+                        <button
+                        id="payment-button"
+                        type="button">
+                            Order
+                        </button>
+                    </div>
+                </div>
+                <div class="service">
+                    <div class="image">
+                        <span class="img-container">
+                            <p class="pricing">Rs 450</p>
+                            <img src="https://th.bing.com/th/id/OIP.X1iNqg9JYAYc2MAGvZoL_AHaE7?pid=ImgDet&rs=1" alt="service">
+                        </span>
+                        <span class="icon">
+                            <i class="fa-sharp fa-solid fa-recycle"></i>
+                        </span>
+                    </div>
+                    <div class="content">
+                        <span class="caption">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quae inventore vel expedita dolorem.
+                        </span>
+                        <button
+                        id="payment-button"
+                        type="button">
+                            Order
+                        </button>
+                    </div>
+                </div>
+                <div class="service">
+                    <div class="image">
+                        <span class="img-container">
+                            <p class="pricing">Rs 450</p>
+                            <img src="https://th.bing.com/th/id/OIP.X1iNqg9JYAYc2MAGvZoL_AHaE7?pid=ImgDet&rs=1" alt="service">
+                        </span>
+                        <span class="icon">
+                            <i class="fa-sharp fa-solid fa-recycle"></i>
+                        </span>
+                    </div>
+                    <div class="content">
+                        <span class="caption">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quae inventore vel expedita dolorem.
+                        </span>
+                        <button
+                        id="payment-button"
+                        type="button">
+                            Order
+                        </button>
+                    </div>
+                </div>
+                <div class="service">
+                    <div class="image">
+                        <span class="img-container">
+                            <p class="pricing">Rs 450</p>
+                            <img src="https://th.bing.com/th/id/OIP.X1iNqg9JYAYc2MAGvZoL_AHaE7?pid=ImgDet&rs=1" alt="service">
+                        </span>
+                        <span class="icon">
+                            <i class="fa-sharp fa-solid fa-recycle"></i>
+                        </span>
+                    </div>
+                    <div class="content">
+                        <span class="caption">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quae inventore vel expedita dolorem.
+                        </span>
+                        <button
+                        id="payment-button"
+                        type="button">
+                            Order
+                        </button>
+                    </div>
+                </div>
+                <div class="service">
+                    <div class="image">
+                        <span class="img-container">
+                            <p class="pricing">Rs 450</p>
+                            <img src="https://th.bing.com/th/id/OIP.X1iNqg9JYAYc2MAGvZoL_AHaE7?pid=ImgDet&rs=1" alt="service">
+                        </span>
+                        <span class="icon">
+                            <i class="fa-sharp fa-solid fa-recycle"></i>
+                        </span>
+                    </div>
+                    <div class="content">
+                        <span class="caption">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quae inventore vel expedita dolorem.
+                        </span>
+                        <button
+                        id="payment-button"
+                        type="button">
                             Order
                         </button>
                     </div>
@@ -160,5 +275,6 @@
         </div>
     </div>
 </body>
+<script src="resources/js/paymentIntegration.js"></script>
 <script src="./resources/js/splashScreen.js"></script>
 </html>
