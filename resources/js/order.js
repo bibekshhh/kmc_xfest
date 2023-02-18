@@ -65,7 +65,6 @@ async function main() {
   
     } catch (error) {
       console.log(error);
-      alert("Some error occured while rendering the site.");
     }
   }
   
