@@ -11,9 +11,8 @@
 font-family: 'Roboto', sans-serif; */
 
 .splash-screen {
-    display: none !important;
-    z-index: 99999999;
-    height: 100vh;
+    z-index: 999999999999999999999999;
+    height: 200vh;
     width: 100%;
     display: flex;
     justify-content: center;

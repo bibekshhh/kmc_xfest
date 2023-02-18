@@ -3,11 +3,14 @@ section#navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 999999999999;
+    z-index: 9999999999;
+    height: 70px;
+    box-shadow: 0 2.5px 5px #dddd;
 }
 
 .navbar-brand{
-    width: 50px;
+    width: max-content;
+    margin-right: 10%;
     display: flex;
     align-items: center;
 }
@@ -43,7 +46,8 @@ section#navbar{
   }
 
   .nav-button-group {
-    min-width: 120px;
+    min-width: 140px;
+    text-align: center;
     padding: 0.8rem 1rem;
     border: none;
     background-color: #3F72AF;
@@ -111,5 +115,10 @@ section#navbar{
       color: #000;
       font-weight: bold;
       font-size: 1.1rem;
+    }
+    .wrapper section#navbar{
+        display: flex;
+        justify-content: center;
+        gap: 0 10px;
     }
   }

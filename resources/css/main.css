@@ -41,30 +41,35 @@ section#main{
     color: white;
     background-color: #112D4E;
     transition: 0.2s ease;
+    cursor: pointer;
 }
 
 .left button:hover{
-    background-color: #d8c9b7;
+    background-color: #0e253f;
     box-shadow: 0 2.5px 5px #eeee;
 }
 
 /* ---------------------------------------------- */
 
 #main .right{
-    padding: 10px 15px;
+    margin-top: -20px;
     width: 450px;
-    height: 90%;
-    border: 1px solid #dddd;
+    height: 100%;
     border-radius: 10px;
-    background-color: white;
-    box-shadow: 0 2.5px 5px #eeee;
 }
 
+
+.css-901oao{
+    font-size: 400px;
+}
 
 
 /* ---------------------------------------------------- */
 
 @media screen and (max-width: 1050px) {
+    #main{
+        padding: 0 15px !important;
+    }
     #main .left{
         min-width: 100% !important;
     }
